@@ -2,6 +2,7 @@ version: "3"
 
 services:
   web:
+    image: polyneme/p5-app-ibis-web
     build:
       network: host
       context: .
